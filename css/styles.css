@@ -1,0 +1,81 @@
+/* colours */
+:root{
+  --primary: #FFE9D2;
+  --secondary: #FFE1C4;
+  --title: #FF8816;
+}
+
+/* layout styles */
+nav{
+  background: var(--primary);
+  border-bottom: 10px solid var(--secondary);
+}
+nav a{
+  text-transform: uppercase;
+  color: var(--title);
+}
+nav a span{
+  font-weight: bold;
+}
+nav .sidenav-trigger{
+  margin: 0;
+}
+
+
+
+
+.side-form button{
+  background: var(--title);
+  box-shadow: 1px 1px 3px rgba(90,90,90,0.2);
+}
+
+.heading{
+
+  margin-top:20px;
+  margin-bottom:20px;
+  text-align: center;
+  
+  width: 100%;
+
+  font-family: 'Roboto', sans-serif;
+  border:2px solid #d66235;
+  color:white;
+  background: #f1b372;
+}
+
+  #footer {
+    position : absolute;
+    bottom : 0px;
+    
+    margin-bottom: 0px;
+    padding-bottom: 5px;
+    text-align:center;
+    width: 100%;
+    
+  }
+
+#footer-content {
+  background-color: #ffe9d2;
+  border: 1px solid #ffe1c4;
+  height: 32px; 
+  padding: 6px;
+  width: 100%;
+  color: var(--title);
+
+
+}
+
+.container{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 2px;
+  font-size: 20px;
+}
+
+#timeline{
+  color:#3a74bb;
+
+}
+
+#total_deaths{
+  color:red;
+}
