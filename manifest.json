@@ -1,6 +1,6 @@
 {
-  "name": "Srikant Loric",
-  "short_name": "Loric",
+  "name": "Covid-19 Tracker",
+  "short_name": "covid-19",
   "start_url": "index.html",
   "display": "standalone",
   "background_color": "#FFC133",
